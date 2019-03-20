@@ -1,7 +1,12 @@
 import React from "react";
+import { Paper, Tab, Tabs } from "@material-ui/core";
 
 export default Footer => (
-  <div>
-    <h1> Footer</h1>
-  </div>
+  <Paper>
+    <Tabs indicatorColor="primary" textColor="primary" centered value={0}>
+      <Tab label="Item One" />
+      <Tab label="Item Two" />
+      <Tab label="Item Three" />
+    </Tabs>
+  </Paper>
 );
